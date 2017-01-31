@@ -1,0 +1,240 @@
+.mySmall 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 8pt; line-height: 11pt;}
+.mySmallBlack 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #000000; font-size: 8pt; line-height: 11pt;}
+.mySmallWhite 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 8pt; line-height: 11pt;}
+	table 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; font-size: 8pt; line-height: 11pt;}
+	
+		#rankTopStyle { position: absolute;
+			top: 28px;
+			left: 19px;
+			z-index: 100;
+       }	   
+	   
+		#descriptionTopStyle { position: absolute;
+			top: 20px;
+			left: 50px;
+			z-index: 100;
+      }	   	   
+	   
+		#descriptionTopStyleThird { position: absolute;
+			top: 20px;
+			left: -350px;
+			z-index: 100;
+       }	   	   
+
+		#descriptionTopStyleBottom { position: absolute;
+			top: -60px;
+			left: 50px;
+			z-index: 100;
+       }
+	   
+		#descriptionTopStyleThirdBottom { position: absolute;
+			top: -60px;
+			left: -350px;
+			z-index: 100;
+       }	   
+	   
+		#takeUpNoSpace { position: absolute;
+			z-index: 100;
+       }	   	   
+	   
+		#wrapper { position: relative;
+			z-index: 100;
+       }	   
+
+		#talentThumbStyle { position: absolute;
+			top: 0px;
+       }
+
+		#iconOver { position: absolute;
+			top: -2px;
+			left: -2px;
+       }
+	   
+		#wrapper99 { position: relative;
+			z-index: 99;
+       }	   
+
+		#wrapper51 { position: relative;
+			z-index: 51;
+       }	   	   
+
+		#wrapper49 { position: absolute;
+			z-index: 49;
+       }	   	 
+	   
+		#wrapper50 { position: relative;
+			z-index: 50;
+       }	   
+
+		#arrowdown1 { position: absolute;
+			top: -20px;
+			left: 11px;
+			z-index: 100;
+       }	   	   
+
+		#arrowdown2 { position: absolute;
+			top: -85px;
+			left: 11px;
+			z-index: 100;
+       }	   	   
+
+		#arrowdown3 { position: absolute;
+			top: -150px;
+			left: 11px;
+			z-index: 100;
+       }	   	   	   	   
+
+		#arrowdown4 { position: absolute;
+			top: -215px;
+			left: 11px;
+			z-index: 100;
+       }	   	   	   	   
+	   
+		#arrowacrossright { position: absolute;
+			top: 15px;
+			left: -20px;
+			z-index: 100;
+       }
+	   
+	   	#arrowacrossleft { position: absolute;
+			top: 12px;
+			left: 39px;
+			z-index: 100;
+       }   
+
+		#arrowdownleft { position: absolute;
+			top: -47px;
+			left: 10px;
+			z-index: 100;
+       }
+	   
+
+		#arrowdownright { position: absolute;
+			top: -47px;
+			left: -20px;
+			z-index: 100;
+       }
+
+		#tabs { position: absolute;
+			top: -14px;
+			z-index: 30;
+       }	   
+
+		#tabsUp { position: absolute;
+			top: -14px;
+			z-index: 30;
+			}
+	   
+#iconOverParchment{
+position: absolute;
+z-index: 100;
+
+}
+
+	#alignLeft{text-align:left;float:left;color:ffffff;}
+	#alignRight{text-align:right;float:right;color:ffffff;}
+    
+    
+    
+    
+    
+    
+    
+.tabletopleft { width: 14; height: 13; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/top-left.gif); }
+.tabletop { background-image:url(../shared/wow-com/images/basics/talents/blacklayout/top.gif)}
+.tabletopright { width: 19; height: 13; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/top-right.gif)}
+.tableleft { height: 100%; width: 14; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/left.gif)}
+.tablebotleft { width: 14; height: 40; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/bot-left.gif)}
+.tablebot { background-image:url(../shared/wow-com/images/basics/talents/blacklayout/bot.gif)}
+.tableright { background-image:url(../shared/wow-com/images/basics/talents/blacklayout/right.gif)}
+.tablebotright { width: 14; height: 40; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/bot-right.gif) }
+.tablebotrightright { width: 4; height: 40; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/bot-right-right.gif)}
+.tablebotleftleft { width: 4; height: 40; background-image:url(../shared/wow-com/images/basics/talents/blacklayout/bot-left-left.gif)}
+
+table { font-size: 12px; }
+
+.treePadding {padding: 0px 0px 0 0px;}
+.talenttreename { height:27px; line-height:27px; position: relative; left: -3px;}
+.talenttreeicon { width:27px; height:27px; position: relative; left: 3px; }
+img.p {behavior: url("../../shared/global/talents/includes/pngBehavior.htc");}
+
+#replaceMeWithTalents {margin-top:15px; _margin-top:20px; margin-left: 15px;}
+
+.treeName {color: #ffe400; font-weight: bold; font-size: 14px; overflow: hidden; }
+.treeColon {color: #FFFFFF; font-size: 12px; overflow: hidden; }
+.treePoint {color: #FFFFFF; font-size: 12px; overflow: hidden; }
+.treePoints {color: #FFFFFF; font-size: 12px; overflow: hidden; }
+
+.rankTooltip		{ font-family: "Tahoma", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 11px; position: center;}
+.mySmall 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 11px; line-height: 11pt;}
+.mySmall2 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffd100; font-size: 11px; line-height: 11pt;}
+.mySmallOff 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 11px; line-height: 11pt;}
+.mySmall22 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffd100; font-size: 11px; line-height: 11pt;}
+.mySmallOff2 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #ffffff; font-size: 11px; line-height: 11pt;}
+.mySmallGreen 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #1aff1a; font-size: 11px; position: relative;}
+.mySmallGreen2 		{ font-family: "Verdana", "Arial", "Helvetica", "Sans-Serif"; color: #1aff1a; font-size: 11px; position: relative;}
+
+		.arrowdown1 { position: absolute;
+			top: -20px;
+			left: 11px;
+			z-index: 100;
+       }	   	   
+
+		.arrowdown2 { position: absolute;
+			top: -85px;
+			left: 11px;
+			z-index: 100;
+       }	   	   
+
+		.arrowdown3 { position: absolute;
+			top: -150px;
+			left: 11px;
+			z-index: 100;
+       }	   	   	   	   
+
+		.arrowdown4 { position: absolute;
+			top: -215px;
+			left: 11px;
+			z-index: 100;
+       }	   	   	   	   
+	   
+		.arrowacrossright { position: absolute;
+			top: 15px;
+			left: -20px;
+			z-index: 100;
+       }   
+	   
+		.arrowdownleft { position: absolute;
+			top: -47px;
+			left: 10px;
+			z-index: 100;
+       }
+	   
+		.arrowacrossleft { position: absolute;
+			top: 12px;
+			left: 39px;
+			z-index: 100;
+       }   
+
+		.arrowdownright { position: absolute;
+			top: -47px;
+			left: -20px;
+			z-index: 100;
+       }
+	   
+	   		.arrowdown2right { position: absolute;
+			top: -110px;
+			left: -20px;
+			z-index: 100;
+       }	   
+	   
+		.arrowdown2left { position: absolute;
+			top: -110px;
+			left: 10px;
+			z-index: 100;
+       }	   	   
+	   
+img.tpng { 
+	behavior: url("../../shared/global/talents/includes/pngBehavior.htc"); 
+}
+
