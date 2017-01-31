@@ -13,7 +13,7 @@ nltree[i] = "Arcane"; i++;
 nltree[i] = "Fire"; i++;
 nltree[i] = "Frost"; i++;
 nltree[i] = "PaHoly"; i++;
-nltree[i] = "Protection"; i++;
+nltree[i] = "pProtection"; i++;
 nltree[i] = "Retribution"; i++;
 nltree[i] = "Discipline"; i++;
 nltree[i] = "PrHoly"; i++;
@@ -29,7 +29,7 @@ nltree[i] = "Demonology"; i++;
 nltree[i] = "Destruction"; i++;
 nltree[i] = "Arms"; i++;
 nltree[i] = "Fury"; i++;
-nltree[i] = "Protection"; i++;
+nltree[i] = "wProtection"; i++;
 
 i = 0;
 
@@ -820,8 +820,8 @@ nltalent[i] = ["Second Wind"]; i++;
 nltalent[i] = ["Mortal Strike"]; i++;
 nltalent[i] = ["Strength of Arms"]; i++;
 nltalent[i] = ["Improved Slam"]; i++;
-nltalent[i] = ["Improved Mortal Strike"]; i++;
 nltalent[i] = ["Juggernaut"]; i++;
+nltalent[i] = ["Improved Mortal Strike"]; i++;
 nltalent[i] = ["Unrelenting Assault"]; i++;
 nltalent[i] = ["Sudden Death"]; i++;
 nltalent[i] = ["Endless Rage"]; i++;
