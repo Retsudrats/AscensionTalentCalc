@@ -1173,9 +1173,9 @@ i++;
 
 //Thick Hide - Feral 
 rank[i] = [
-"Increases your Armor contribution from items by 4%.",
-"Increases your Armor contribution from items by 7%.",
-"Increases your Armor contribution from items by 10%."
+"Increases your Armor contribution from cloth and leather items by 4%.",
+"Increases your Armor contribution from cloth and leather items by 7%.",
+"Increases your Armor contribution from cloth and leather items by 10%."
 		];		
 i++;		
 
