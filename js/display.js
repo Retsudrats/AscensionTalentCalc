@@ -38,7 +38,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 	treeName = treeName.replace(" ", "");
 	
 	//box top
-	massiveReplaceString += '<td><table border = "0" cellpadding = "0" cellspacing = "0">';
+	massiveReplaceString += '<td><table border = "0" cellpadding = "0" cellspacing = "0" width = "250px">';
 
 	massiveReplaceString += '<tr><td class = "tabletopleft"></td>';
 	massiveReplaceString += '<td class = "tabletop"></td>';
@@ -114,7 +114,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 							massiveReplaceString += '<div id = "descriptionTopStyleThirdBottom">';
 						}
 							
-						massiveReplaceString += '<table border = "0" cellpadding = "0" cellspacing = "0" style="width:300px;"><tr><td></td>';
+						massiveReplaceString += '<table border = "" cellpadding = "0" cellspacing = "0" style="width:300px;"><tr><td></td>';
 						massiveReplaceString += '<td bgcolor = "#d5d5d7" height = "1"></td><td></td></tr>';
 						massiveReplaceString += '<tr><td bgcolor = "#a5a5a5" width = "1"><div style = "width: 1px;"></div></td>';
 						massiveReplaceString += '<td><table width = "300" border = "0" cellspacing = "0" cellpadding = "5" bordercolor = "#000000"><tr><td bgcolor = "#020303" class = "tdPaddingFive">';
@@ -271,7 +271,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 	massiveReplaceString += '\
 	<tr>\
 		<td class="tablebotleftleft"></td>\
-		<td width="145px" nowrap class="tablebotbot">\
+		<td width="160px" nowrap class="tablebotbot">\
 			<div class="talenttreename">\
 				<img src="'+ imgPath +'/images/talents/trees/'+ nlclass + printTreeID +'.png" class="p talenttreeicon" align="left"><span class = "treeName">'+ tree[printTreeID] +'</span><span class = "treeColon">'+ textColon +' <span class = "treePoint" id="'+tree[printTreeID]+'tabPoints">'+ pointsTree[printTreeID] +'</span> <span class = "treePoints" id="'+tree[printTreeID]+'tabPointsText">'+ textPoints +'</span></span></nobr>\
 			</div>\

@@ -5,31 +5,31 @@ var talentPath = "/info/basics/talents/";
 
 tree[i] = "Bala"; i++;
 tree[i] = "Fera"; i++;
-tree[i] = "Rest"; i++;
+tree[i] = "D-Rest"; i++;
 tree[i] = "BMas"; i++;
 tree[i] = "Mark"; i++;
 tree[i] = "Surv"; i++;
 tree[i] = "Arc"; i++;
 tree[i] = "Fire"; i++;
 tree[i] = "Frost"; i++;
-tree[i] = "Holy"; i++;
-tree[i] = "Prot"; i++;
+tree[i] = "Pa-Holy"; i++;
+tree[i] = "P-Prot"; i++;
 tree[i] = "Ret"; i++;
 tree[i] = "Disc"; i++;
-tree[i] = "Holy"; i++;
+tree[i] = "Pr-Holy"; i++;
 tree[i] = "Shad"; i++;
 tree[i] = "Ass"; i++;
 tree[i] = "Comb"; i++;
 tree[i] = "Sub"; i++;
 tree[i] = "Ele"; i++;
 tree[i] = "Enhan"; i++;
-tree[i] = "Rest"; i++;
+tree[i] = "S-Rest"; i++;
 tree[i] = "Affl"; i++;
 tree[i] = "Demo"; i++;
 tree[i] = "Dest"; i++;
 tree[i] = "Arms"; i++;
 tree[i] = "Fury"; i++;
-tree[i] = "Prot"; i++;
+tree[i] = "W-Prot"; i++;
 
 i = 0;
 
