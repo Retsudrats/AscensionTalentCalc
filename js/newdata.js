@@ -4192,9 +4192,9 @@ i++;
 		
 //Shadow Weaving - Shadow
 rank[i]=[
-"Your Shadow damage spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times.",
-"Your Shadow damage spells have a 66% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times.",
-"Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times."
+"Your Shadow Priest spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times.",
+"Your Shadow Priest spells have a 66% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times.",
+"Your Shadow Priest spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec. Stacks up to 5 times."
 		];
 
 i++;				

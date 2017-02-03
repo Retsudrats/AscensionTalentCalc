@@ -344,10 +344,10 @@ function changeCopyURL(){
 	}	*/
 	for (i = 0; talent[i]; i++) {
 		templateString = templateString + rankTop[i][0]
-	}
-	
-	shortenURL(templateString);
-	
+	}	
+
+	shortenURL(templateString)
+
 }
 
 function shortenURL(templateString) {
@@ -387,7 +387,6 @@ shortenedURL = shortenedURL.toString().replace(/,/g, '');
 
 document.getElementById('copyURL').innerHTML = shortenedURL;  
 }
-
 
 function rankTopOnRightClick(talentID) {
 

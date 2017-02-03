@@ -3,43 +3,11 @@ if(query.indexOf("tal=")>-1) query = query.slice(4)
 
 var vars = query;
 var saveTemplate = new Array();
-var decryptedURL = [];
 
-for (e = 0; e < vars.length; e++) {
-  saveTemplate[e] = vars.charAt(e);
+for (e=0;e<vars.length;e++)
+{
+	saveTemplate[e] = vars.charAt(e);
 }
-
-saveTemplate = saveTemplate.toString().replace(/,/g, '');
-
-for (i = 1; i < saveTemplate.length;) {
-	currentChar = saveTemplate.charAt(0);
-  
-	if (currentChar == "-") {
-		currentCharPat = saveTemplate.slice(0,4); saveTemplate = saveTemplate.slice(4, saveTemplate.length + 1); 
-		currentCharPat = currentCharPat.toString().replace(/-/, '');
-		hexRevConv = currentCharPat.slice(0,2); hexRevConv = parseInt(hexRevConv, 16);
-		repCurChar = currentCharPat.slice(2,3);
-   	
-		j = hexRevConv;
-		for (j > 0; j--;) {
-			decryptedURL.push([repCurChar]);
-		}
-	}
-	else if ((/[0-5]/).test(currentChar)) {
-		decryptedURL.push([currentChar]);
-		saveTemplate = saveTemplate.slice(1, saveTemplate.length + 1);
-	}
-	else
-		decryptedURL = decryptedURL.toString("");
-}
-
-decryptedURL = decryptedURL.toString().replace(/,/g, '');
-if (decryptedURL.length >= 742) {
-	decryptedURL = decryptedURL.toString("");
-}
-else
-	
-saveTemplate = decryptedURL;
 
 for (treeLoop = 0; treeLoop<tree.length; treeLoop++)
 {
@@ -63,7 +31,7 @@ while (tierLoop < tierNum)
 }
 
 tierLoop = 0;
-
+		
 var talentInsertID = 0;
 
 //filling in new arrays:
